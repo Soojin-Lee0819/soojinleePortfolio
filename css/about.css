@@ -1,0 +1,124 @@
+.container1 {
+  float: left;
+  margin: 4vw;
+  width: 92vw;
+  display: flex;
+}
+
+.left {
+  display: flex;
+    width: 50%;
+  justify-content: center;
+
+}
+
+
+.left img{
+margin: 0 auto;
+width: 40%;
+}
+
+
+.right {
+  display: flex;
+  align-items: center;
+  width: 50%;
+
+}
+
+.introduction {
+  margin: 0 auto;
+  width: 70%;
+
+
+}
+
+h1 {
+    font-size: 2.6vw;
+  font-family: proxima-nova, sans-serif;
+   font-weight: 400;
+}
+
+.txt-rotate {
+    font-family: proxima-nova, sans-serif;
+   font-weight: 400;
+  color: #AF5D40;
+
+}
+
+
+.text1 {
+  font-family: proxima-nova, sans-serif;
+   font-weight: 200;
+  font-size: 1.5vw;
+   font-weight:lighter;
+}
+
+
+
+/*
+.text2 {
+
+  color: :black;
+
+  font-family: 'Roboto', sans-serif;
+
+  margin-right: 5%;
+
+  font-size: 0.8vw;
+
+  line-height: 2vw;
+
+  margin-top: 3%;
+
+}
+*/
+
+.container2{
+   background-color: #f2f2f2;
+    float: left;
+padding: 4vw;
+  width: 100%;
+  position: relative;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+h2 {
+    font-size: 1.5vw;
+
+}
+
+.column p {
+    font-size: 1vw;
+    font-weight: 200;
+  line-height: 1vw;
+}
+
+@media screen and (max-width: 600px) {
+
+.container2{
+   background-color: #f2f2f2;
+    float: left;
+padding: 4vw;
+  width: 100%;
+}
+
+
+  .column {
+      position: relative;
+  width: 50%;
+}
+
+.column p {
+    font-size: 1v;
+    font-weight: 200;
+  line-height:0;
+}
+
+
+
+}
